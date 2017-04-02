@@ -1,0 +1,17 @@
+Used Database Engine: Mysql
+
+@Algirdas Lalys
+
+#1 Create DB using SQL command
+
+CREATE TABLE `reg-task`.`users` ( `id` INT NOT NULL AUTO_INCREMENT , 
+                                  `name` VARCHAR(50) NOT NULL , 
+                                  `lastname` VARCHAR(50) NOT NULL , 
+                                  `phone` VARCHAR(20) NOT NULL , 
+                                  `email` VARCHAR(100) NOT NULL , 
+                                  `file_path` VARCHAR(200) NOT NULL , 
+PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+#2 Import 'users.sql' into 'reg-task' database
+
+Or create 'reg-task' database and import users.sql (empty table)
